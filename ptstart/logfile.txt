@@ -622,3 +622,571 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2024-05-07 00:03:47,039 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 01:45:39,867 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2024-05-07 01:45:39,878 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 22:28:58,417 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 22:31:58,742 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 138, in get_release
+    release_info = execute_command_ssh("lsb_release -a")
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 131, in execute_command_ssh
+    ssh_client.connect(hostname='192.168.146.157', username='root', password='kali')
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
+2024-05-07 22:46:30,955 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 22:46:30,955 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 22:46:32,483 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 22:46:58,985 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 22:46:58,985 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 22:47:03,552 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 22:47:26,189 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 47, in getRelease
+    release_info = execute_ssh_command('lsb_release -a')
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 26, in execute_ssh_command
+    ssh_client.connect(hostname=SSH_HOST, port=SSH_PORT, username=SSH_USERNAME, password=SSH_PASSWORD)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
+2024-05-07 23:01:21,453 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:01:21,453 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:01:23,579 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:02:48,116 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 62, in getDf
+    df_info = execute_ssh_command('df -h')
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 26, in execute_ssh_command
+    ssh_client.connect(hostname=SSH_HOST, port=SSH_PORT, username=SSH_USERNAME, password=SSH_PASSWORD)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
+2024-05-07 23:06:07,544 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:06:07,544 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:06:17,965 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:06:24,623 - __main__ - ERROR - Error executing SSH command: [Errno None] Unable to connect to port 22 on 192.168.146.157
+2024-05-07 23:07:03,089 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:07:03,089 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:07:13,495 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:07:18,551 - __main__ - ERROR - Error executing SSH command: [Errno None] Unable to connect to port 22 on 192.168.146.157
+2024-05-07 23:07:48,457 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:07:50,684 - paramiko.transport - INFO - Authentication (password) failed.
+2024-05-07 23:07:50,684 - __main__ - ERROR - SSH error: Authentication failed.
+2024-05-07 23:08:10,482 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:08:10,482 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:08:17,151 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:08:17,449 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:08:17,527 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:14:42,512 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:14:42,681 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:14:47,791 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 56, in getRelease
+    update.message.reply_text(release_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-07 23:14:58,711 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:14:58,711 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:15:03,278 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:15:07,129 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:15:07,237 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:15:19,005 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:15:19,117 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:15:24,870 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:15:24,950 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:16:00,565 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:16:00,643 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:16:19,782 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:16:19,862 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:16:31,917 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:16:32,024 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:16:36,293 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:16:36,370 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:16:54,361 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:16:54,439 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:17:00,555 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:17:00,635 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:17:00,771 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 96, in getCritical
+    update.message.reply_text(critical_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-07 23:19:50,817 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:19:50,817 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:19:52,371 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:20:28,123 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:20:28,202 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:20:28,452 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 88, in getCritical
+    update.message.reply_text(critical_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-07 23:21:36,313 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:21:36,313 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:21:39,140 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:22:00,799 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:22:03,021 - paramiko.transport - INFO - Authentication (password) failed.
+2024-05-07 23:22:03,021 - __main__ - ERROR - SSH error: Authentication failed.
+2024-05-07 23:22:06,764 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:22:08,984 - paramiko.transport - INFO - Authentication (password) failed.
+2024-05-07 23:22:08,984 - __main__ - ERROR - SSH error: Authentication failed.
+2024-05-07 23:28:31,620 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:28:31,620 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:28:39,791 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:28:40,072 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:28:42,293 - paramiko.transport - INFO - Authentication (password) failed.
+2024-05-07 23:28:42,293 - __main__ - ERROR - SSH error: Authentication failed.
+2024-05-07 23:29:26,912 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:29:26,913 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:29:30,970 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:29:51,351 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:29:51,430 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:30:09,518 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:30:09,518 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:30:12,172 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:30:20,003 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:30:20,082 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:39:40,649 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:39:40,726 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:39:45,848 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
+    update.message.reply_text(ps_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-07 23:39:48,374 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:39:48,375 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:39:51,318 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:39:53,371 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:39:53,450 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:39:53,777 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
+    update.message.reply_text(ps_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+2024-05-07 23:42:59,326 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:42:59,327 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:43:38,219 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:43:38,515 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:43:38,594 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:43:38,903 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
+    update.message.reply_text(ps_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+2024-05-07 23:43:38,914 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:43:38,994 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:43:45,610 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:43:45,720 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:43:50,201 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:43:50,282 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:43:50,441 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
+    update.message.reply_text(ps_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+2024-05-07 23:45:09,257 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:45:09,258 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:45:11,271 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:45:16,023 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:45:16,102 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:45:38,761 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:45:38,842 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:45:39,344 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 101, in getAptList
+    update.message.reply_text(apt_list_info)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-05-07 23:45:41,886 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:45:41,966 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-07 23:45:42,441 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 101, in getAptList
+    update.message.reply_text(apt_list_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Text is too long
+2024-05-07 23:53:43,359 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 23:53:43,359 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 23:53:45,082 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 23:53:57,984 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-07 23:53:58,062 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:01:59,022 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-08 00:01:59,023 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-08 00:02:01,181 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-08 00:03:43,778 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-08 00:03:43,778 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-08 00:03:52,623 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-08 00:03:57,642 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000022381C956C0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot7013840002:AAFQNM5VH--lY8uFStOpIzrbZcU1dDNifGU/getMe
+2024-05-08 00:04:29,140 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:04:29,257 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:04:37,572 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:04:37,651 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:04:37,909 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 106, in getAptList
+    update.message.reply_text(apt_list_info)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-05-08 00:04:43,856 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:04:43,935 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:04:44,438 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 106, in getAptList
+    update.message.reply_text(apt_list_info)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Text is too long
+2024-05-08 00:06:13,412 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-08 00:06:13,412 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-08 00:06:15,191 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-08 00:06:20,721 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:06:20,803 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:06:38,695 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 109, in getAptList
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+    result = self._request_wrapper(
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 272, in _request_wrapper
+    message = str(self._parse(resp.data))
+  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 230, in _parse
+    raise RetryAfter(retry_after)
+telegram.error.RetryAfter: Flood control exceeded. Retry in 172.0 seconds
+2024-05-08 00:11:12,636 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-08 00:11:12,650 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-08 00:11:23,153 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-08 00:11:40,610 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:11:40,690 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:12:34,815 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:12:34,894 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:12:51,570 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:12:51,680 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:12:55,565 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:12:55,643 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:07,621 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:07,699 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:13,135 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:13,215 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:20,526 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:20,607 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:24,382 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:24,462 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:26,738 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:26,818 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:30,039 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:30,118 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:36,569 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:36,647 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:42,805 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:42,882 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:46,543 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:46,622 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:49,555 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:49,635 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:13:51,509 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:13:51,590 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:14:10,522 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:14:10,603 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-08 00:14:20,838 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2024-05-08 00:14:20,918 - paramiko.transport - INFO - Authentication (password) successful!
