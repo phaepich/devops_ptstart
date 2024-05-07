@@ -1,5 +1,6 @@
 import logging
 import re
+import paramiko
 
 from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
