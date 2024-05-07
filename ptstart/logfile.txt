@@ -622,3 +622,6 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2024-05-07 00:03:47,039 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 01:45:39,867 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2024-05-07 01:45:39,878 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-07 10:05:22,708 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 10:07:20,774 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 10:07:20,774 - apscheduler.scheduler - INFO - Scheduler has been shut down
