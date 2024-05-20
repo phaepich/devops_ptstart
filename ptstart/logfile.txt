@@ -3,601 +3,601 @@
 2024-05-06 19:24:56,385 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:24:56,543 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:00,444 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:00,445 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:01,510 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:01,510 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:05,568 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:05,568 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:07,127 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:07,127 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:11,691 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:11,692 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:14,001 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:14,001 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:18,064 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:18,064 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:21,491 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:21,491 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:26,070 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:26,070 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:31,190 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:31,190 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:36,512 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:36,512 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:44,163 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:44,164 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:48,214 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:48,215 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:59,666 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:25:59,667 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:03,725 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:03,725 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:20,874 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:20,874 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:24,935 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:24,935 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:50,621 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:50,621 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:54,677 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:26:54,677 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:27:33,177 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:27:33,178 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:27:37,236 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:27:37,236 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:07,291 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:07,292 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:11,353 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:11,353 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:41,417 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:41,417 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:45,478 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:28:45,478 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:15,533 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:15,533 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:19,589 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:19,589 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:49,654 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:49,654 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:53,711 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:29:53,711 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
     if not action_cb():
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
     updates = self.bot.get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
     updates = super().get_updates(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 2861, in get_updates
     self._post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2024-05-06 19:30:23,041 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -622,18 +622,19 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2024-05-07 00:03:47,039 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 01:45:39,867 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2024-05-07 01:45:39,878 - apscheduler.scheduler - INFO - Scheduler has been shut down
+<<<<<<< HEAD
 2024-05-07 22:28:58,417 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 22:31:58,742 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 138, in get_release
     release_info = execute_command_ssh("lsb_release -a")
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 131, in execute_command_ssh
     ssh_client.connect(hostname='192.168.146.157', username='root', password='kali')
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
     raise NoValidConnectionsError(errors)
 paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
 2024-05-07 22:46:30,955 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -644,15 +645,15 @@ paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect t
 2024-05-07 22:47:03,552 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 22:47:26,189 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 47, in getRelease
     release_info = execute_ssh_command('lsb_release -a')
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 26, in execute_ssh_command
     ssh_client.connect(hostname=SSH_HOST, port=SSH_PORT, username=SSH_USERNAME, password=SSH_PASSWORD)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
     raise NoValidConnectionsError(errors)
 paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
 2024-05-07 23:01:21,453 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -660,15 +661,15 @@ paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect t
 2024-05-07 23:01:23,579 - apscheduler.scheduler - INFO - Scheduler started
 2024-05-07 23:02:48,116 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 62, in getDf
     df_info = execute_ssh_command('df -h')
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 26, in execute_ssh_command
     ssh_client.connect(hostname=SSH_HOST, port=SSH_PORT, username=SSH_USERNAME, password=SSH_PASSWORD)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\paramiko\client.py", line 409, in connect
     raise NoValidConnectionsError(errors)
 paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.146.157
 2024-05-07 23:06:07,544 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -691,10 +692,10 @@ paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect t
 2024-05-07 23:14:42,681 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:14:47,791 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
     six.raise_from(e, None)
   File "<string>", line 2, in raise_from
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
     httplib_response = conn.getresponse()
   File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
     response.begin()
@@ -713,52 +714,52 @@ TimeoutError: The read operation timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
     resp = self._con_pool.request(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
     return self.request_encode_body(method, url, fields=fields,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
     return self.urlopen(method, url, **extra_kw)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
     response = conn.urlopen(method, u.request_uri, **kw)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
     retries = retries.increment(method, url, error=e, _pool=self,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
     raise six.reraise(type(error), error, _stacktrace)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
     raise value
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
     httplib_response = self._make_request(conn, method, url,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
     raise exc_cls(*args)
 telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 56, in getRelease
     update.message.reply_text(release_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
     raise TimedOut() from error
 telegram.error.TimedOut: Timed out
 2024-05-07 23:14:58,711 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -784,27 +785,27 @@ telegram.error.TimedOut: Timed out
 2024-05-07 23:17:00,635 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:17:00,771 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 96, in getCritical
     update.message.reply_text(critical_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message text is empty
 2024-05-07 23:19:50,817 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -814,27 +815,27 @@ telegram.error.BadRequest: Message text is empty
 2024-05-07 23:20:28,202 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:20:28,452 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 88, in getCritical
     update.message.reply_text(critical_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message text is empty
 2024-05-07 23:21:36,313 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -866,10 +867,10 @@ telegram.error.BadRequest: Message text is empty
 2024-05-07 23:39:40,726 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:39:45,848 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
     six.raise_from(e, None)
   File "<string>", line 2, in raise_from
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
     httplib_response = conn.getresponse()
   File "C:\Users\sasha\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
     response.begin()
@@ -888,52 +889,52 @@ TimeoutError: The read operation timed out
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 259, in _request_wrapper
     resp = self._con_pool.request(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 68, in request
     return self.request_encode_body(method, url, fields=fields,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
     return self.urlopen(method, url, **extra_kw)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
     response = conn.urlopen(method, u.request_uri, **kw)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 665, in urlopen
     retries = retries.increment(method, url, error=e, _pool=self,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
     raise six.reraise(type(error), error, _stacktrace)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
     raise value
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 614, in urlopen
     httplib_response = self._make_request(conn, method, url,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 404, in _make_request
     self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
     raise exc_cls(*args)
 telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
     update.message.reply_text(ps_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 261, in _request_wrapper
     raise TimedOut() from error
 telegram.error.TimedOut: Timed out
 2024-05-07 23:39:48,374 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -943,27 +944,27 @@ telegram.error.TimedOut: Timed out
 2024-05-07 23:39:53,450 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:39:53,777 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
     update.message.reply_text(ps_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message is too long
 2024-05-07 23:42:59,326 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -973,27 +974,27 @@ telegram.error.BadRequest: Message is too long
 2024-05-07 23:43:38,594 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:43:38,903 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
     update.message.reply_text(ps_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message is too long
 2024-05-07 23:43:38,914 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
@@ -1004,27 +1005,27 @@ telegram.error.BadRequest: Message is too long
 2024-05-07 23:43:50,282 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:43:50,441 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 93, in getPs
     update.message.reply_text(ps_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message is too long
 2024-05-07 23:45:09,257 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -1036,9 +1037,9 @@ telegram.error.BadRequest: Message is too long
 2024-05-07 23:45:38,842 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:45:39,344 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 101, in getAptList
     update.message.reply_text(apt_list_info)
@@ -1047,27 +1048,27 @@ AttributeError: 'NoneType' object has no attribute 'reply_text'
 2024-05-07 23:45:41,966 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-07 23:45:42,441 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 101, in getAptList
     update.message.reply_text(apt_list_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Text is too long
 2024-05-07 23:53:43,359 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -1088,9 +1089,9 @@ telegram.error.BadRequest: Text is too long
 2024-05-08 00:04:37,651 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-08 00:04:37,909 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 106, in getAptList
     update.message.reply_text(apt_list_info)
@@ -1099,27 +1100,27 @@ AttributeError: 'NoneType' object has no attribute 'reply_text'
 2024-05-08 00:04:43,935 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-08 00:04:44,438 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 106, in getAptList
     update.message.reply_text(apt_list_info)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Text is too long
 2024-05-08 00:06:13,412 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -1129,28 +1130,28 @@ telegram.error.BadRequest: Text is too long
 2024-05-08 00:06:20,803 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-08 00:06:38,695 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
     return self.callback(update, context)
   File "D:\GitHub\devops\devops_ptstart\ptstart\12.py", line 109, in getAptList
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\message.py", line 764, in reply_text
     return self.bot.send_message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 513, in send_message
     return self._message(  # type: ignore[return-value]
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
     result = super()._message(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 332, in _message
     result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\bot.py", line 295, in _post
     return self.request.post(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 356, in post
     result = self._request_wrapper(
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 272, in _request_wrapper
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 272, in _request_wrapper
     message = str(self._parse(resp.data))
-  File "C:\Users\sasha\OneDrive\Документы\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 230, in _parse
+  File "C:\Users\sasha\OneDrive\пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\yaEbatKakoyProgrammist\PyCharm\ptstart\venv\lib\site-packages\telegram\utils\request.py", line 230, in _parse
     raise RetryAfter(retry_after)
 telegram.error.RetryAfter: Flood control exceeded. Retry in 172.0 seconds
 2024-05-08 00:11:12,636 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
@@ -1190,3 +1191,8 @@ telegram.error.RetryAfter: Flood control exceeded. Retry in 172.0 seconds
 2024-05-08 00:14:10,603 - paramiko.transport - INFO - Authentication (password) successful!
 2024-05-08 00:14:20,838 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
 2024-05-08 00:14:20,918 - paramiko.transport - INFO - Authentication (password) successful!
+=======
+2024-05-07 10:05:22,708 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-07 10:07:20,774 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-07 10:07:20,774 - apscheduler.scheduler - INFO - Scheduler has been shut down
+>>>>>>> origin/main
