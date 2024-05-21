@@ -37,10 +37,10 @@ def execute_ssh_command(command):
         return output
     except paramiko.SSHException as e:
         logger.error(f"SSH error: {e}")
-        return "An SSH error occurred."
+        return "Ошибка с SSH."
     except Exception as e:
-        logger.error(f"Error executing SSH command: {e}")
-        return "An error occurred while executing the command."
+        logger.error(f"Ошибка во время выполнения SSH-запроса: {e}")
+        return "Ошибка во время обработки запроса."
 
 def start(update: Update, context):
     user = update.effective_user
@@ -130,8 +130,8 @@ def get_emails(update: Update, context):
         cur.close()
         conn.close()
     except Exception as e:
-        logger.error(f"Error fetching emails: {e}")
-        update.message.reply_text("An error occurred while fetching emails.")
+        logger.error(f"Не получилось получить почту: {e}")
+        update.message.reply_text("Ошибка во время получения почты.")
 
 def get_phone_numbers(update: Update, context):
     try:
@@ -144,8 +144,8 @@ def get_phone_numbers(update: Update, context):
         cur.close()
         conn.close()
     except Exception as e:
-        logger.error(f"Error fetching phone numbers: {e}")
-        update.message.reply_text("An error occurred while fetching phone numbers.")
+        logger.error(f"Не получилось получить номера телефонов: {e}")
+        update.message.reply_text("Ошибка во время получения номера телефонов.")
 
 def findPhoneNumbersCommand(update: Update, context):
     update.message.reply_text('Введите текст для поиска телефонных номеров: ')
@@ -181,7 +181,7 @@ def confirmSavePhoneNumbers(update: Update, context):
                 conn.close()
                 update.message.reply_text(f"Номер телефона {phone_number} успешно добавлен в базу данных.")
             except Exception as e:
-                logger.error(f"Error inserting phone number: {e}")
+                logger.error(f"Не получилось вставить номер телефона: {e}")
                 update.message.reply_text(f"Ошибка при добавлении номера телефона {phone_number} в базу данных.")
     else:
         update.message.reply_text("Телефонные номера не были сохранены.")
@@ -222,7 +222,7 @@ def confirmSaveEmails(update: Update, context):
                 conn.close()
                 update.message.reply_text(f"Email {email} успешно добавлен в базу данных.")
             except Exception as e:
-                logger.error(f"Error inserting email: {e}")
+                logger.error(f"Не получилось вставить email: {e}")
                 update.message.reply_text(f"Ошибка при добавлении email {email} в базу данных.")
     else:
         update.message.reply_text("Email-адреса не были сохранены.")
